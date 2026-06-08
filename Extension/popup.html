@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stress Monitor</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<h2>AI Stress Monitor</h2>
+
+<video id="video" autoplay muted></video>
+
+<div class="info">
+  <p id="emotion">Emotion: --</p>
+  <p id="stress">Stress: --%</p>
+</div>
+
+<canvas id="stressChart"></canvas>
+
+<audio id="alertSound" src="alert.mp3"></audio>
+
+<script src="popup.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+body {
+    width: 400px;
+    padding: 10px;
+    background: #111;
+    color: white;
+    font-family: Arial;
+}
+
+video {
+    width: 100%;
+    border-radius: 10px;
+}
+
+canvas {
+    background: white;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.info {
+    margin-top: 10px;
+}
